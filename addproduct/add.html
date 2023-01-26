@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Migo Market</title>
+    <link rel="icon" type="image/x-icon" href="../imges/favicon.ico">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-warning">
+        <div class="container-fluid text-warning">
+          <a class="navbar-brand" href="../project.html"><img src="../imges/Smile. Smile logo. Yellow logo smile. (Logo).png" width="70px" height="" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-warning" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-warning fs-3" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning fs-3" href="#">Link</a>
+              </li>
+              <li id="logout" class="d-none"><button type="button" class="btn btn-info fs-3 ">Info</button>
+                <button type="button" class="btn btn-warning fs-3 ">Info</button>
+
+              </li>
+              <li class="nav-item dropdown" id="login">
+                
+                <a class="nav-link dropdown-toggle text-warning fs-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item text-warning fs-3 " href="add.html">ADD Product</a></li>
+                  <li><a class="dropdown-item text-warning fs-3" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider text-warning fs-3"></li>
+                  <li><a class="dropdown-item text-warning fs-3" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-warning fs-3" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex w-600px">
+              <input class="form-control ms-5 " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success text-dark bg-warning fs-3" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+<div class="container">
+
+      <form class="row">
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend class="fs-1 fw-bold ">ADD PRODUCTS</legend>
+        
+        <!-- Text input-->
+      <div class="image col-5 float-end ">
+        <img class="" id="image" width="100px" class="d-none d-lg-flex" src="../imges/migozezo_make_inmation_logo_for_migo_market_8abe7afc-6e01-463e-a492-5e42df841148.png" alt="">
+      </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="product_name">PRODUCT NAME</label>  
+          <div class="col-md-6">
+          <input id="product_name" name="product_name" placeholder="PRODUCT NAME" class="form-control input-md" required="" type="text">
+            
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="product_name_fr">PRODUCT DESCRIPTION FR</label>  
+          <div class="col-md-6">
+          <input id="product_name_fr" name="product_name_fr" placeholder="PRODUCT DESCRIPTION FR" class="form-control input-md" required="" type="text">
+            
+          </div>
+        </div>
+        
+        <!-- Select Basic -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="product_categorie">PRODUCT CATEGORY</label>
+          <div class="col-6">
+            <input id="product_categorie" name="product_categorie" class="form-control"  required="" type="text">
+            </select>
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="available_quantity">price</label>  
+          <div class="col-md-4">
+          <input id="price" name="available_quantity" placeholder="1000$" class="form-control input-md" required="" type="number">
+            
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="product_categori">PRODUCT CATEGORY</label>
+          <div class="col-6">
+            <input id="filebutton" name="product_categori" class="form-control"  required="" type="url">
+            </select>
+          </div>
+        </div>
+
+
+         <!-- File Button --> 
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="filebutton">main_image</label>
+          <div class="col-md-4">
+            <input id="" name="filebutton" class="input-file" type="file">
+          </div>
+        </div>
+        <!-- File Button --> 
+   
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="singlebutton">Single Button</label>
+          <div class="col-md-4">
+            <button id="singlebutton" name="singlebutton" class="btn btn-primary" onclick="addpro()">Button</button>
+          </div>
+          </div>
+
+        </div>
+
+
+
+
+
+
+<div id="im"></div>
+
+
+
+
+
+<script src="./jquery.js"></script>
+
+<script src="./add.js"></script>
+      
+</body>
+</html>
